@@ -4020,3 +4020,606 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014104 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4485ms)
+		BeginReloadAssembly (352ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (3866ms)
+			LoadAssemblies (438ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1267ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (170ms)
+			SetupLoadedEditorAssemblies (1571ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (241ms)
+				ProcessInitializeOnLoadAttributes (1260ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2092 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2746.
+Total: 10.697000 ms (FindLiveObjects: 0.668800 ms CreateObjectMapping: 0.259700 ms MarkObjects: 9.703200 ms  DeleteObjects: 0.061600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.760 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2761ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (2431ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (654ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (1087ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (252ms)
+				ProcessInitializeOnLoadAttributes (769ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 94.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2752.
+Total: 17.306000 ms (FindLiveObjects: 1.304100 ms CreateObjectMapping: 0.590500 ms MarkObjects: 15.241000 ms  DeleteObjects: 0.166700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012160 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.178 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3179ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (2897ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (633ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (1641ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (343ms)
+				ProcessInitializeOnLoadAttributes (1214ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 94.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2758.
+Total: 8.503600 ms (FindLiveObjects: 0.507500 ms CreateObjectMapping: 0.214000 ms MarkObjects: 7.723700 ms  DeleteObjects: 0.055900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3180.564927 seconds.
+  path: Assets/Forest - Pixel Art
+  artifactKey: Guid(bb9e7386866aa7f47a4d4cd1e9524d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art using Guid(bb9e7386866aa7f47a4d4cd1e9524d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fc2d35a3e0115135d4b1f8e42c9b2b') in 0.022269 seconds 
+  Import took 0.031330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001039 seconds.
+  path: Assets/Forest - Pixel Art
+  artifactKey: Guid(bb9e7386866aa7f47a4d4cd1e9524d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art using Guid(bb9e7386866aa7f47a4d4cd1e9524d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fc2d35a3e0115135d4b1f8e42c9b2b') in 0.006990 seconds 
+  Import took 0.015465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.416070 seconds.
+  path: Assets/Forest - Pixel Art/Sprites
+  artifactKey: Guid(619b47e947167c14498b044c2c281014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Sprites using Guid(619b47e947167c14498b044c2c281014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63150efeb966a703a70b315fd9750bb5') in 0.028922 seconds 
+  Import took 0.036597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045392 seconds.
+  path: Assets/Forest - Pixel Art/Sprites/Background1.png
+  artifactKey: Guid(480f1c0a51302ab42827804d422d8a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Sprites/Background1.png using Guid(480f1c0a51302ab42827804d422d8a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7896a3d24fcdbcd7608e57b61555cf61') in 0.353232 seconds 
+  Import took 0.364272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/Forest - Pixel Art/Sprites/Background4.png
+  artifactKey: Guid(ed3dbd6fc9172d240984ff720ed0de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Sprites/Background4.png using Guid(ed3dbd6fc9172d240984ff720ed0de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2013e37710bfa0b9737e572be585e9e') in 0.040130 seconds 
+  Import took 0.048677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Forest - Pixel Art/Sprites/Tiles.png
+  artifactKey: Guid(04bbe790cfb3c5240a36f48ef260a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Sprites/Tiles.png using Guid(04bbe790cfb3c5240a36f48ef260a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4c6736e1db18384c6f5fa67defd35a') in 0.107666 seconds 
+  Import took 0.116000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Forest - Pixel Art/Sprites/Props.png
+  artifactKey: Guid(72eb8001482581e44baad8d3f380ac68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Sprites/Props.png using Guid(72eb8001482581e44baad8d3f380ac68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0d063f8c9a65e188a4f4ab32680f49') in 0.086763 seconds 
+  Import took 0.094488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Forest - Pixel Art/Sprites/Background2.png
+  artifactKey: Guid(750ed635f7d315c4b98d4c2834c010a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Sprites/Background2.png using Guid(750ed635f7d315c4b98d4c2834c010a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18abdea68efe1f06afd480288c0840aa') in 0.036542 seconds 
+  Import took 0.054745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Forest - Pixel Art/Sprites/Background3.png
+  artifactKey: Guid(e04b1608c8a3d4646b32afcfd1c9d166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Sprites/Background3.png using Guid(e04b1608c8a3d4646b32afcfd1c9d166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b60904ece7726e3325dee76d0d539c7') in 0.044645 seconds 
+  Import took 0.056568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Forest - Pixel Art/Sprites/Background2.png
+  artifactKey: Guid(750ed635f7d315c4b98d4c2834c010a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Sprites/Background2.png using Guid(750ed635f7d315c4b98d4c2834c010a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18abdea68efe1f06afd480288c0840aa') in 0.029358 seconds 
+  Import took 0.039455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000707 seconds.
+  path: Assets/Forest - Pixel Art/Sprites/Background5.png
+  artifactKey: Guid(e7ea737262e935449a0649cb3650f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Sprites/Background5.png using Guid(e7ea737262e935449a0649cb3650f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57928679040599c087a72a9c93e297d4') in 0.043803 seconds 
+  Import took 0.053314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.870244 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap
+  artifactKey: Guid(7aea5d79a598dd64889119a026c7e1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap using Guid(7aea5d79a598dd64889119a026c7e1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4c91e08e6339dffefe5a77852f51ee') in 0.013492 seconds 
+  Import took 0.031673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008550 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Forest_Palette.prefab
+  artifactKey: Guid(7f061ab62642e8a4a8683a493115eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Forest_Palette.prefab using Guid(7f061ab62642e8a4a8683a493115eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00fce32a3373e94342c217dba8eed40') in 0.136787 seconds 
+  Import took 0.145029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Tiles_3.asset
+  artifactKey: Guid(e6a8df007478ec645bd31b6f1fa57bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Tiles_3.asset using Guid(e6a8df007478ec645bd31b6f1fa57bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b8448ec820593bf7ab1bda6dcaccbd') in 0.105743 seconds 
+  Import took 0.113484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000704 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Tiles_8.asset
+  artifactKey: Guid(b8863b39d6a4e314b82704708045861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Tiles_8.asset using Guid(b8863b39d6a4e314b82704708045861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ade73db0cafa5867bccf32a68e53f5') in 0.059995 seconds 
+  Import took 0.073325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002409 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Props_0.asset
+  artifactKey: Guid(830073cba2ff97f49a1dc1b991a5d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Props_0.asset using Guid(830073cba2ff97f49a1dc1b991a5d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b265b37b1c358bcf4fc3ad1df52a459') in 0.061619 seconds 
+  Import took 0.076254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Tiles_9.asset
+  artifactKey: Guid(a5324f1bbc6c3334082d9086f7a2d78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Tiles_9.asset using Guid(a5324f1bbc6c3334082d9086f7a2d78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f9656abd2a85d02b5da1ca2ca5e3cd') in 0.035818 seconds 
+  Import took 0.046414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000689 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Tiles_0.asset
+  artifactKey: Guid(81409663d67b25948acaa08f20ce52ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Tiles_0.asset using Guid(81409663d67b25948acaa08f20ce52ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0572ebd847b9f59e3e088cd2593711e') in 0.056893 seconds 
+  Import took 0.067983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Tiles_1.asset
+  artifactKey: Guid(54e40ee2b99654d4a97123ede4f4ea4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Tiles_1.asset using Guid(54e40ee2b99654d4a97123ede4f4ea4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195b31ae20929628e41af9f650c644ce') in 0.038761 seconds 
+  Import took 0.048660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000696 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Tiles_7.asset
+  artifactKey: Guid(cc2b92a872e3df040a17292e36b365cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Tiles_7.asset using Guid(cc2b92a872e3df040a17292e36b365cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f59fc41945b5783038e10d20cc73f0') in 0.036362 seconds 
+  Import took 0.048184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000655 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Props_4.asset
+  artifactKey: Guid(12c59b852ab19454e94bf969859fe4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Props_4.asset using Guid(12c59b852ab19454e94bf969859fe4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a521b39f6aea54ebaba6e52d083ae3a2') in 0.039693 seconds 
+  Import took 0.049368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Props_5.asset
+  artifactKey: Guid(acee07f88afe2774abdd50fba32977e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Props_5.asset using Guid(acee07f88afe2774abdd50fba32977e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec58a3d65e84383883960b08e1d6d79') in 0.043978 seconds 
+  Import took 0.056183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Tiles_2.asset
+  artifactKey: Guid(b7f3cfffb9853eb4a891d4c86fd4618e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Tiles_2.asset using Guid(b7f3cfffb9853eb4a891d4c86fd4618e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff44a57a9e8fc94c88a065634083a89') in 0.035588 seconds 
+  Import took 0.047046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Tiles_4.asset
+  artifactKey: Guid(96f877641fa9794479064d145794bd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Tiles_4.asset using Guid(96f877641fa9794479064d145794bd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fe4c2eeef113d5e7fb154ce0586bf1') in 0.040182 seconds 
+  Import took 0.050968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000716 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Props_2.asset
+  artifactKey: Guid(9534b3242ff13b44bab1fa4f7a361636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Props_2.asset using Guid(9534b3242ff13b44bab1fa4f7a361636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09358da359490fe8ee20d20f4790206f') in 0.040253 seconds 
+  Import took 0.051278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000932 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Props_6.asset
+  artifactKey: Guid(acd2f2b0df28f79478288a3a1b531d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Props_6.asset using Guid(acd2f2b0df28f79478288a3a1b531d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a2ee61c6dcda5dcaccb877db13af0d') in 0.035593 seconds 
+  Import took 0.047744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Tiles_5.asset
+  artifactKey: Guid(ac273b875e00e95459dc4c09ed1a8822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Tiles_5.asset using Guid(ac273b875e00e95459dc4c09ed1a8822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43c22bb90e3a22f1d0a9a3c3cf0dc6c') in 0.057893 seconds 
+  Import took 0.069565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000674 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Props_1.asset
+  artifactKey: Guid(bdcefa7f19423244d8885bd4cbf0f47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Props_1.asset using Guid(bdcefa7f19423244d8885bd4cbf0f47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e4209eee9b984d942f92a3aae4ee23') in 0.040475 seconds 
+  Import took 0.051659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Tiles_6.asset
+  artifactKey: Guid(30062f5bf906c4b41a6248dbd73b4edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Tiles_6.asset using Guid(30062f5bf906c4b41a6248dbd73b4edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b0f7177c3a9c07c8b2f73b0bfef618') in 0.038563 seconds 
+  Import took 0.049407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000874 seconds.
+  path: Assets/Forest - Pixel Art/Tilemap/Props_3.asset
+  artifactKey: Guid(04969a12f19105049a1a71fc4445ceaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest - Pixel Art/Tilemap/Props_3.asset using Guid(04969a12f19105049a1a71fc4445ceaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e129797d2e9c1cc4ec9dfa1f832a8325') in 0.048792 seconds 
+  Import took 0.061897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.654359 seconds.
+  path: Assets/Treasure Cave - Pixel Art
+  artifactKey: Guid(9a8c5bceb2c52754c8c53fa94b9b4b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art using Guid(9a8c5bceb2c52754c8c53fa94b9b4b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb731be1d90fca0c7509e4f837e3883') in 0.012896 seconds 
+  Import took 0.019419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.812384 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Tilemap
+  artifactKey: Guid(00d0a364bbe13214a95c4df5a09b332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Tilemap using Guid(00d0a364bbe13214a95c4df5a09b332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6aa41e780d3a961fdf37c6a98c62d5') in 0.005655 seconds 
+  Import took 0.013590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059255 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Tilemap/Cave_Palette.prefab
+  artifactKey: Guid(37c30e73bc0bbe047a3a4ca3882349cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Tilemap/Cave_Palette.prefab using Guid(37c30e73bc0bbe047a3a4ca3882349cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ddacb67550eac7751678eecf3974a8') in 0.040360 seconds 
+  Import took 0.047942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_0.asset
+  artifactKey: Guid(2a845ecc28e4d2243873c1080a1160e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_0.asset using Guid(2a845ecc28e4d2243873c1080a1160e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e367aa8780a08461418a9e6afb6c2698') in 0.020880 seconds 
+  Import took 0.035197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_3.asset
+  artifactKey: Guid(20773553b4eb1c84291edb5ff20177a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_3.asset using Guid(20773553b4eb1c84291edb5ff20177a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691c0f8833b2cfbb9f5e9a04920fa519') in 0.023134 seconds 
+  Import took 0.030732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Tilemap/Stalagmite.asset
+  artifactKey: Guid(5a812577a29bfd1419005b0328323fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Tilemap/Stalagmite.asset using Guid(5a812577a29bfd1419005b0328323fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad32dfe463cf864cc3211569b78ed836') in 0.027320 seconds 
+  Import took 0.033535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_2.asset
+  artifactKey: Guid(e5d67ec7003b0e844a6d41c7ad8c4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_2.asset using Guid(e5d67ec7003b0e844a6d41c7ad8c4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc086579d2a1d1af1abcc3f097e8e4e1') in 0.023596 seconds 
+  Import took 0.030599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_7.asset
+  artifactKey: Guid(7663c4f8519367046a7f305aee2b2f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_7.asset using Guid(7663c4f8519367046a7f305aee2b2f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4437dc24f1c42a45bf8d0f68d3d6af') in 0.023585 seconds 
+  Import took 0.030884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_6.asset
+  artifactKey: Guid(b25cd2227f7518748a5d756d4f9afa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_6.asset using Guid(b25cd2227f7518748a5d756d4f9afa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf11ac8e0d8591b22068b7d8c392f74f') in 0.025989 seconds 
+  Import took 0.033544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_1.asset
+  artifactKey: Guid(39130ceb3cfd50449aca4758d673022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_1.asset using Guid(39130ceb3cfd50449aca4758d673022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67a09f1b800013d73d0bbac2f44058f') in 0.029493 seconds 
+  Import took 0.037116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_4.asset
+  artifactKey: Guid(cca65a9e8982b444f8e7ffbbc64fa71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_4.asset using Guid(cca65a9e8982b444f8e7ffbbc64fa71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0261051623d6e97e3c52f31ae6a7b17') in 0.031401 seconds 
+  Import took 0.039721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001112 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_5.asset
+  artifactKey: Guid(7816c6a0d59a85841be68b2eb780c899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Tilemap/GoldTiles_5.asset using Guid(7816c6a0d59a85841be68b2eb780c899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a057412689925e1b7da31101fd21c4a') in 0.028936 seconds 
+  Import took 0.039210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.857331 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Sprites
+  artifactKey: Guid(b85d1053c8339d443b812d7b865f0b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Sprites using Guid(b85d1053c8339d443b812d7b865f0b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1f12cabfd49a33e2771f878bed319b') in 0.004177 seconds 
+  Import took 0.011455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052772 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Sprites/Background1.png
+  artifactKey: Guid(772f109d3882a3f44991b5b658c9e8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Sprites/Background1.png using Guid(772f109d3882a3f44991b5b658c9e8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe40b1d413f6ded7556e8ec8b4db36a') in 0.034276 seconds 
+  Import took 0.041876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Sprites/CaveSides.png
+  artifactKey: Guid(e5fd12e13e849c44a8071560042035a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Sprites/CaveSides.png using Guid(e5fd12e13e849c44a8071560042035a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5c1b502b7033c329d0515b869e9e9c') in 0.042102 seconds 
+  Import took 0.050806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Sprites/GoldTiles.png
+  artifactKey: Guid(ad90771ec5884bc4cb80ff9748bf8082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Sprites/GoldTiles.png using Guid(ad90771ec5884bc4cb80ff9748bf8082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9912479c49bb50f348a5326930e2931') in 0.062754 seconds 
+  Import took 0.071533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Sprites/Background2.png
+  artifactKey: Guid(cdb13097f2a992949ad8c5ea9e295678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Sprites/Background2.png using Guid(cdb13097f2a992949ad8c5ea9e295678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe77e21c798a7f1559b38cc7e7d4849') in 0.025179 seconds 
+  Import took 0.031420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Sprites/TreasureProps.png
+  artifactKey: Guid(8049172bc520724469568dba39afbabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Sprites/TreasureProps.png using Guid(8049172bc520724469568dba39afbabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130d29b56dd90e3e04893904412521f8') in 0.058749 seconds 
+  Import took 0.068019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Sprites/ViewBlocker.png
+  artifactKey: Guid(af81ad38d61ec524baa8050f9eea3ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Sprites/ViewBlocker.png using Guid(af81ad38d61ec524baa8050f9eea3ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f92bfcab1707c60be3ea84e203b46f6') in 0.034574 seconds 
+  Import took 0.040996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Sprites/Stalagmite.png
+  artifactKey: Guid(b9df07df362b38c47bbc4baf56757ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Sprites/Stalagmite.png using Guid(b9df07df362b38c47bbc4baf56757ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9d8138c3d4e5e8388610c90b7754c5') in 0.026697 seconds 
+  Import took 0.035311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Sprites/Background4.png
+  artifactKey: Guid(567a923ff82fb49468d7f5fd1cafa947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Sprites/Background4.png using Guid(567a923ff82fb49468d7f5fd1cafa947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0673d61f4b0e63800fc5d273da347c') in 0.027504 seconds 
+  Import took 0.035966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Sprites/Background3.png
+  artifactKey: Guid(9bfc1985218f2da44bca009530e6c529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Sprites/Background3.png using Guid(9bfc1985218f2da44bca009530e6c529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864d9cf2ba77adfb8b377c2c7d7e52e9') in 0.033745 seconds 
+  Import took 0.042016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Sprites/GoldPile1.png
+  artifactKey: Guid(1f3d09a6c2866c9488bd27a34e0a1a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Sprites/GoldPile1.png using Guid(1f3d09a6c2866c9488bd27a34e0a1a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc1decaae5ca44304bb0c08c5bd0784') in 0.044101 seconds 
+  Import took 0.055421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Treasure Cave - Pixel Art/Sprites/GoldPile2.png
+  artifactKey: Guid(508a447a22dcfeb4a8903ede96e05c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Cave - Pixel Art/Sprites/GoldPile2.png using Guid(508a447a22dcfeb4a8903ede96e05c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd877fc267ed0160bc329976cd2fac09') in 0.041869 seconds 
+  Import took 0.050732 seconds .
+

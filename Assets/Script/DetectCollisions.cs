@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DetectCollisions : MonoBehaviour
 {
-    public bool status = false; // False = touche au sol et True = dans les airs
+    public bool status; // False = touche au sol et True = dans les airs
     private void OnTriggerEnter2D(Collider2D other)
     {
         status = false;
