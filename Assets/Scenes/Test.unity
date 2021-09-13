@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 726760461}
   m_Layer: 0
   m_Name: FloorCollider
-  m_TagString: Collider
+  m_TagString: ColliderSol
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

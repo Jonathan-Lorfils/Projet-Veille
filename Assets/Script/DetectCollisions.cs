@@ -8,11 +8,18 @@ public class DetectCollisions : MonoBehaviour
     public bool status; // False = touche au sol et True = dans les airs
     private void OnTriggerEnter2D(Collider2D other)
     {
-        status = false;
+        if (other.gameObject.tag == "ColliderSol")
+        {
+            status = false;
+        }
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        status = true;
+        if (other.gameObject.tag == "ColliderSol")
+        {
+            status = true;
+        }
     }
 }
