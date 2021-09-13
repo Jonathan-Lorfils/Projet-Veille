@@ -505,7 +505,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.2
+  orthographic size: 1.7853146
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -529,9 +529,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570763378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 1.47, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 854191935}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -547,7 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7967a7ecdbf3e9044ad0a5cfc5c1e346, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_movementSpeed: 0.5
+  m_movementSpeed: 1
 --- !u!1 &590149771
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,17 +818,17 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854191934}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.02, y: 0, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 946102358}
   - {fileID: 2114107265}
   - {fileID: 1680808604}
   - {fileID: 1124835025}
   - {fileID: 1298509876}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 570763381}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &946102356
 GameObject:
@@ -927,7 +928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 570763378}
-  parallaxEffect: 1
+  parallaxEffect: 0.9
 --- !u!1 &1124835023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +1027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 570763378}
-  parallaxEffect: 0.3
+  parallaxEffect: 0.6
 --- !u!1 &1298509874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,7 +1126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 570763378}
-  parallaxEffect: 0
+  parallaxEffect: 0.3
 --- !u!1 &1454836349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,7 +1307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 570763378}
-  parallaxEffect: 0.5
+  parallaxEffect: 0.8
 --- !u!1 &1862617802
 GameObject:
   m_ObjectHideFlags: 0
@@ -1569,4 +1570,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 570763378}
-  parallaxEffect: 0.7
+  parallaxEffect: 0.9
