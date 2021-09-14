@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   status: 0
+  animator: {fileID: 1790977479}
 --- !u!1 &726760460
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,6 +411,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790977477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5419930034650718081, guid: e481822248898d04e9808a3d3ca78e5a, type: 3}
+  m_PrefabInstance: {fileID: 1195549407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1790977479
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790977477}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ba68a1b57fc172341ad4f8a2ea65a5e2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1837254503
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,16 +833,4 @@ MonoBehaviour:
   VitesseMouvement: 3
   ForceSaut: 8
   CollisionsSol: {fileID: 63810262}
---- !u!114 &2019530221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2019530215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bdb2541e980fd5488297ec0ae82b5e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  status: 0
+  animator: {fileID: 1790977479}
