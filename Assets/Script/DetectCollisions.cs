@@ -13,6 +13,7 @@ public class DetectCollisions : MonoBehaviour
         {
             status = false;
             animator.SetBool("isJumping",false);
+            animator.SetBool("isFalling",false);
         }
         
     }
@@ -22,6 +23,7 @@ public class DetectCollisions : MonoBehaviour
         if (other.gameObject.tag == "ColliderSol")
         {
             status = true;
+            animator.SetTrigger("isLanding");
         }
     }
 }

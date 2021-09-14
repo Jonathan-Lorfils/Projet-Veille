@@ -20,8 +20,15 @@ public class PlayerMovement : MonoBehaviour
         var mouvement = Input.GetAxis("Horizontal");
         var hauteur = Input.GetAxis("Vertical");
         transform.position += new Vector3(mouvement, 0, 0) * Time.deltaTime * VitesseMouvement;
-
-        animator.SetFloat("Speed",Mathf.Abs(mouvement));
+        
+        if (Mathf.Abs(mouvement) > 0)
+        {
+            animator.SetBool("isRunning",true);
+        }
+        else
+        {
+            animator.SetBool("isRunning",false);
+        }
         
         if (mouvement < 0)
         {
@@ -36,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
         {
             _rigidbody2D.AddForce(new Vector2(0,ForceSaut),ForceMode2D.Impulse);
             animator.SetBool("isJumping",true);
+            animator.SetTrigger("isFalling");
         }
         
         
