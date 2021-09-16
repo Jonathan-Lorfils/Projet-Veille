@@ -12,7 +12,6 @@ public class DetectCollisions : MonoBehaviour
         if (other.gameObject.tag == "ColliderSol")
         {
             status = false;
-            animator.SetBool("isJumping",false);
             animator.SetBool("isFalling",false);
         }
         

@@ -44,18 +44,14 @@ public class PlayerMovement : MonoBehaviour
         {
             _rigidbody2D.AddForce(new Vector2(0,ForceSaut),ForceMode2D.Impulse);
             animator.SetBool("isJumping",true);
-            animator.SetTrigger("isFalling");
-            StartCoroutine(Timer(5));
+            StartCoroutine(Timer());
         }
     }
 
-    IEnumerator Timer(float temps)
+    IEnumerator Timer()
     {
-        while (temps > 0)
-        {
-            yield return new WaitForSeconds(1f);
-            temps--;
-            Debug.Log("1s");
-        }
+        yield return new WaitForSeconds(0.5f);
+        animator.SetBool("isJumping",false);
+        animator.SetBool("isFalling",true);
     }
 }
