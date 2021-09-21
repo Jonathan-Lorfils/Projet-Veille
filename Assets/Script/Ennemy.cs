@@ -8,6 +8,7 @@ public class Ennemy : MonoBehaviour
     public Animator animator;
     private int currentHealt;
     public HealtBar healtBar;
+    public bool isDead = false;
     void Start()
     {
         currentHealt = maxHealt;
@@ -30,11 +31,17 @@ public class Ennemy : MonoBehaviour
 
     void Die()
     {
+        isDead = true;
         animator.SetBool("isDead",true);
-
-       // healtBar.slider.GetComponent<Renderer>().enabled = false;
         GetComponent<Rigidbody2D>().simulated = false;
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
+        StartCoroutine(Timer());
+    }
+    
+    IEnumerator Timer()
+    {
+        yield return new WaitForSeconds(3f);
+        Destroy(gameObject);
     }
 }
