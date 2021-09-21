@@ -32,6 +32,7 @@ public class Ennemy : MonoBehaviour
     void Die()
     {
         isDead = true;
+        animator.SetBool("isChasing",false);
         animator.SetBool("isDead",true);
         GetComponent<Rigidbody2D>().simulated = false;
         GetComponent<Collider2D>().enabled = false;
