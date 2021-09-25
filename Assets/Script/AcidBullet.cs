@@ -9,5 +9,13 @@ public class AcidBullet : MonoBehaviour
     void Start()
     {
         startpoint.velocity = transform.right * speed;
+        StartCoroutine(TimerDestroy());
+    }
+    
+    // detruire le projectile 2s apres
+    IEnumerator TimerDestroy()
+    {
+        yield return new WaitForSeconds(2f);
+        Destroy(gameObject);
     }
 }

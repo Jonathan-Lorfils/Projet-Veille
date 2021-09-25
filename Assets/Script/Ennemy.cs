@@ -9,6 +9,7 @@ public class Ennemy : MonoBehaviour
     private int currentHealt;
     public HealtBar healtBar;
     public bool isDead = false;
+    [SerializeField] private Rigidbody2D _rigidbody2D;
     void Start()
     {
         currentHealt = maxHealt;
@@ -36,8 +37,8 @@ public class Ennemy : MonoBehaviour
         animator.SetBool("isDead",true);
         GetComponent<Rigidbody2D>().simulated = false;
         GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
         StartCoroutine(Timer());
+        enabled = false;
     }
     
     IEnumerator Timer()

@@ -23,9 +23,9 @@ public class PlayerDamage : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-
+        
         if (other.gameObject.tag.Equals("Bullet"))
         {
             TakeDamage(1);
@@ -41,6 +41,7 @@ public class PlayerDamage : MonoBehaviour
     {
         hearts -= damage;
         animator.SetTrigger("isHurt");
+        // velocity en direction oppose (repouser le joueur vers l'arriere)
     }
 
     void Die()
