@@ -351,6 +351,7 @@ MonoBehaviour:
   animator: {fileID: 438704707}
   healtBar: {fileID: 60187793}
   isDead: 0
+  _rigidbody2D: {fileID: 0}
 --- !u!114 &438704709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,12 +365,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  target: {fileID: 0}
   radiusDetection: 5
-  isChasing: 0
   animator: {fileID: 438704707}
   firePoint: {fileID: 380748612}
   acidBulletPrefab: {fileID: 7476414160391582013, guid: f3c4798e771db46458b77e020757dd15, type: 3}
+  gasGameObject: {fileID: 8564641006869092583, guid: 6384525b0964a4a4089f6f504bfa03f4, type: 3}
 --- !u!1 &726760460
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +427,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &864552472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 864552473}
+  - component: {fileID: 864552474}
+  - component: {fileID: 864552475}
+  m_Layer: 0
+  m_Name: ParryPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &864552473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864552472}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.68, y: 0.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2019530219}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &864552474
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864552472}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.095243454, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.59524345
+--- !u!114 &864552475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864552472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca26bc5c4f010542904acf004c53ab9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _circleCollider2D: {fileID: 864552474}
 --- !u!1 &865670722
 GameObject:
   m_ObjectHideFlags: 0
