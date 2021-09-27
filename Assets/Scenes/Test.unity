@@ -364,7 +364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aebe3ce8426b44d4c858059b420c10c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1
   radiusDetection: 5
   animator: {fileID: 438704707}
   firePoint: {fileID: 380748612}
@@ -453,7 +453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864552472}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.68, y: 0.02, z: 0}
+  m_LocalPosition: {x: 0, y: -0.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2019530219}
@@ -472,9 +472,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.095243454, y: 0}
+  m_Offset: {x: -0.008493781, y: 0.15255523}
   serializedVersion: 2
-  m_Radius: 0.59524345
+  m_Radius: 0.64406145
 --- !u!114 &864552475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -487,7 +487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca26bc5c4f010542904acf004c53ab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _circleCollider2D: {fileID: 864552474}
+  animator: {fileID: 1790977479}
 --- !u!1 &865670722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,6 +1501,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 50937053501120618, guid: f37d6c9a4e62c9c45abece0f88588898, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50937053501120618, guid: f37d6c9a4e62c9c45abece0f88588898, type: 3}
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
@@ -1592,3 +1596,17 @@ MonoBehaviour:
   CollisionsSol: {fileID: 63810262}
   animator: {fileID: 1790977479}
   startJumpTime: 20
+--- !u!114 &2019530222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019530215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b21ac12eec1cddb46a694e9ffd26769f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDead: 0
+  animator: {fileID: 1790977479}
