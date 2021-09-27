@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class PlayerDamage : MonoBehaviour
 {
-    private int hearts = 6;
-
+    private int hearts = 1;
+    public bool isDead = false;
     public Animator animator;
     // Start is called before the first frame update
     void Start()
@@ -23,11 +23,12 @@ public class PlayerDamage : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         
         if (other.gameObject.tag.Equals("Bullet"))
         {
+            Destroy(other.gameObject);
             TakeDamage(1);
         }
 
@@ -41,11 +42,22 @@ public class PlayerDamage : MonoBehaviour
     {
         hearts -= damage;
         animator.SetTrigger("isHurt");
+        Debug.Log(hearts);
         // velocity en direction oppose (repouser le joueur vers l'arriere)
     }
 
     void Die()
     {
-        
+        animator.SetBool("isDead",true);
+        StartCoroutine(Timer());
+        GetComponent<Rigidbody2D>().simulated = false;
+        GetComponent<Collider2D>().enabled = false;
+        enabled = false;
+    }
+    
+    IEnumerator Timer()
+    {
+        yield return new WaitForSeconds(3f);
+        Destroy(gameObject);
     }
 }
