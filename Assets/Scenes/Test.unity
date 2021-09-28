@@ -487,6 +487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca26bc5c4f010542904acf004c53ab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isParryable: 0
   animator: {fileID: 1790977479}
 --- !u!1 &865670722
 GameObject:
@@ -1610,3 +1611,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDead: 0
   animator: {fileID: 1790977479}
+  _parryScript: {fileID: 864552475}
+--- !u!114 &2019530223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019530215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fd95377445edae43b1947ab735f771a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerMovement: {fileID: 2019530220}
+  _parryScript: {fileID: 864552475}
+  _detectCollisions: {fileID: 63810262}
+  _playerDamage: {fileID: 2019530222}
+  _combatScript: {fileID: 2019530216}
