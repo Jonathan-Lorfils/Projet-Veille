@@ -40,7 +40,7 @@ public class ParryScript : MonoBehaviour
         } 
         if (other.gameObject.tag.Equals("Bullet") && isParryable) // permet de ne pas prendre de degats des gouttes d'acide lorsque l'on parry
         {
-            Destroy(other.gameObject);
+            
         }
     }
 

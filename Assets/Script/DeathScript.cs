@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DeathScript : MonoBehaviour
 {
+    // faire une event ?
     private bool isDead;
 
     [SerializeField] private PlayerMovement _playerMovement;
