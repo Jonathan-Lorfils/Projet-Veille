@@ -5,9 +5,13 @@ using UnityEngine;
 
 public class PlayerDamage : MonoBehaviour
 {
-    private int hearts = 1;
+    private int hearts = 10;
     public bool isDead = false;
     public Animator animator;
+
+    [SerializeField] private ParryScript _parryScript;
+
+    private bool isParryable;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,22 +21,23 @@ public class PlayerDamage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isParryable = _parryScript.isParryable;
         if (hearts <= 0)
         {
             Die();
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         
-        if (other.gameObject.tag.Equals("Bullet"))
+        if (other.gameObject.tag.Equals("Bullet") && !isParryable)
         {
             Destroy(other.gameObject);
             TakeDamage(1);
         }
 
-        if (other.gameObject.tag.Equals("Ennemy"))
+        if (other.gameObject.tag.Equals("Ennemy") && !isParryable)
         {
             TakeDamage(2);
         }
@@ -48,6 +53,7 @@ public class PlayerDamage : MonoBehaviour
 
     void Die()
     {
+        isDead = true;
         animator.SetBool("isDead",true);
         StartCoroutine(Timer());
         GetComponent<Rigidbody2D>().simulated = false;

@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     public Animator animator;
     public float startJumpTime = 20;
+    private bool isDead;
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();

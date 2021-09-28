@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class ParryScript : MonoBehaviour
 {   private float nextParryTime = 0f;
-    private bool isParryable = false;
+    public bool isParryable = false;
     private float attackRate = 2f;
     [SerializeField] private Animator animator;
-    
+
     // Jumeler avec le script de combat script
     
     // Start is called before the first frame update
