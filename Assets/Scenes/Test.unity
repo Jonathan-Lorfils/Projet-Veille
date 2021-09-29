@@ -214,7 +214,6 @@ MonoBehaviour:
   animator: {fileID: 696173736}
   healtBar: {fileID: 1875621227}
   isDead: 0
-  _rigidbody2D: {fileID: 696173739}
 --- !u!95 &696173736 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 95630606348407014, guid: c48af40411cb74346b2e937805532cf8, type: 3}
@@ -223,11 +222,6 @@ Animator:
 --- !u!4 &696173738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4910011507777586, guid: c48af40411cb74346b2e937805532cf8, type: 3}
-  m_PrefabInstance: {fileID: 2094074964}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &696173739 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 50436911376262202, guid: c48af40411cb74346b2e937805532cf8, type: 3}
   m_PrefabInstance: {fileID: 2094074964}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &726760460
@@ -1499,6 +1493,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1658931415068190, guid: c48af40411cb74346b2e937805532cf8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658931415068190, guid: c48af40411cb74346b2e937805532cf8, type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
@@ -1545,6 +1543,22 @@ PrefabInstance:
     - target: {fileID: 4910011507777586, guid: c48af40411cb74346b2e937805532cf8, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61865940470238090, guid: c48af40411cb74346b2e937805532cf8, type: 3}
+      propertyPath: m_Size.x
+      value: 0.3598273
+      objectReference: {fileID: 0}
+    - target: {fileID: 61865940470238090, guid: c48af40411cb74346b2e937805532cf8, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5199138
+      objectReference: {fileID: 0}
+    - target: {fileID: 61865940470238090, guid: c48af40411cb74346b2e937805532cf8, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.009913668
+      objectReference: {fileID: 0}
+    - target: {fileID: 61865940470238090, guid: c48af40411cb74346b2e937805532cf8, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.27401727
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114018350582172178, guid: c48af40411cb74346b2e937805532cf8, type: 3}

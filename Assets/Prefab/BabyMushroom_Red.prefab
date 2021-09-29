@@ -594,7 +594,7 @@ MonoBehaviour:
   animator: {fileID: 6472280867688104867}
   healtBar: {fileID: 6377097721189136303}
   isDead: 0
-  _rigidbody2D: {fileID: 0}
+  _rigidbody2D: {fileID: 6355975924557549023}
 --- !u!114 &6377097721045453179
 MonoBehaviour:
   m_ObjectHideFlags: 0
