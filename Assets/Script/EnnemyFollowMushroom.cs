@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnnemyFollow : MonoBehaviour
+public class EnnemyFollowMushroom : MonoBehaviour
 {
     // matcher avec le script ennemy *possible fusion avec le scrip ennemy*
     // Peut etre le faire arreter de chase lorsque le joueur est trop loin

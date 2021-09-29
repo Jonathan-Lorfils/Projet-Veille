@@ -20,7 +20,7 @@ public class PlayerDamage : MonoBehaviour
     void Start()
     {
         isVulnerable = true;
-        isDead = false;
+        isDead = false;  
     }
 
     // Update is called once per frame
@@ -31,22 +31,27 @@ public class PlayerDamage : MonoBehaviour
         {
             Die();
         }
-        Debug.Log(isVulnerable);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         
-        if (other.gameObject.tag.Equals("Bullet") && !isParryable && isVulnerable)
+        if (other.gameObject.tag.Equals("Bullet"))
         {
             Destroy(other.gameObject);
-            isVulnerable = false;
-            StartCoroutine(TimerInvincibility());
-            TakeDamage(1);
+            
+            if (!isParryable && isVulnerable)
+            {
+                repulseEffect(other.transform.rotation.y);
+                isVulnerable = false;
+                StartCoroutine(TimerInvincibility());
+                TakeDamage(1);
+            }
         }
         
         if (other.gameObject.tag.Equals("Enemy") && !isParryable && isVulnerable)
         {
+            repulseEffect(other.transform.rotation.y);
             TakeDamage(2);
             isVulnerable = false;
             StartCoroutine(TimerInvincibility());
@@ -96,6 +101,17 @@ public class PlayerDamage : MonoBehaviour
             _spriteRenderer.material.color = Color.white; 
             yield return new WaitForSeconds(.1f);
         }
-        
+    }
+
+    void repulseEffect(float rotation)
+    {
+        if (rotation == 0)
+        {
+            _rigidbody2D.AddForce(new Vector2(5,0),ForceMode2D.Impulse);
+        }
+        else
+        {
+            _rigidbody2D.AddForce(new Vector2(-5,0),ForceMode2D.Impulse);
+        }
     }
 }
