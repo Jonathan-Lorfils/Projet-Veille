@@ -6,7 +6,6 @@ using UnityEngine;
 public class CombatScript : MonoBehaviour
 {
     public Animator animator;
-
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask ennemyLayers;
@@ -43,7 +42,7 @@ public class CombatScript : MonoBehaviour
         if (typeAttaque == "basic")
         {
             animator.SetTrigger("isAttackingBasic");
-            // appliquer des degats
+
             foreach (Collider2D enemy in hitEnemies)
             {
                 enemy.GetComponent<Ennemy>().TakeDamage(attackDamageBasic);
@@ -52,6 +51,7 @@ public class CombatScript : MonoBehaviour
         if (typeAttaque == "charged")
         {
             animator.SetTrigger("isAttackingCharged");
+            
             foreach (Collider2D enemy in hitEnemies)
             {
                 enemy.GetComponent<Ennemy>().TakeDamage(attackDamageCharged);

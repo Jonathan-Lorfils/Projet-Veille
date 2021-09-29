@@ -9,7 +9,6 @@ public class Ennemy : MonoBehaviour
     private int currentHealt;
     public HealtBar healtBar;
     public bool isDead = false;
-    [SerializeField] private Rigidbody2D _rigidbody2D;
     void Start()
     {
         currentHealt = maxHealt;

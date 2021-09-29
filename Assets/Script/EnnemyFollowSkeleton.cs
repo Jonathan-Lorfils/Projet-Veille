@@ -8,36 +8,42 @@ public class EnnemyFollowSkeleton : MonoBehaviour
     // matcher avec le script ennemy *possible fusion avec le scrip ennemy*
     // Peut etre le faire arreter de chase lorsque le joueur est trop loin
     public float speed;
-
     private Transform target;
     public float radiusDetection = 5;
     private bool isChasing = false;
     public Animator animator;
+    public bool attackCoolDown; // true quand le cooldown est actif, false quand il est fini donc ennemie peut attaquer
 
     // Start is called before the first frame update
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        attackCoolDown = true;
     }
 
     // Update is called once per frame
     void Update()
     {
         // Si l'ennemie est mort le script se desactive
-        if (gameObject.GetComponent<Ennemy>().isDead)
+        if (gameObject.GetComponent<Ennemy>().isDead || target.GetComponent<PlayerDamage>().isDead)
         {
             enabled = false;
         }
         
         if (isChasing)
         {
-            if (Vector2.Distance(transform.position, target.position) > 1)
+            if (Vector2.Distance(transform.position, target.position) > 2)
             {
                 transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
             }
             else
             {
-                Attack();
+                if (attackCoolDown)
+                {
+                    attackCoolDown = false;
+                    Attack();
+                    StartCoroutine(attackTimer());
+                }
             }
         }
 
@@ -67,5 +73,11 @@ public class EnnemyFollowSkeleton : MonoBehaviour
         {
             animator.SetTrigger("Attack");
         }
+    }
+    
+    IEnumerator attackTimer()
+    {
+        yield return new WaitForSeconds(2f);
+        attackCoolDown = true;
     }
 }
