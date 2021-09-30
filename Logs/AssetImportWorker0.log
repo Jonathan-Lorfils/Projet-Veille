@@ -4911,3 +4911,83 @@ Received Import Request.
 Start importing Assets/Scenes/Level1.unity using Guid(69252c64c4bfc1942aade3994a60dfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a9588603df9a093bca6a98df810f1d') in 0.017964 seconds 
   Import took 0.022846 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 561.563560 seconds.
+  path: Assets/GothicVania Church
+  artifactKey: Guid(4953f18ea0c5def40b660427f8f3b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church using Guid(4953f18ea0c5def40b660427f8f3b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785b71d4a9dac77daedecfd5e2e6b143') in 0.013076 seconds 
+  Import took 0.018907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/GothicVania Church
+  artifactKey: Guid(4953f18ea0c5def40b660427f8f3b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church using Guid(4953f18ea0c5def40b660427f8f3b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785b71d4a9dac77daedecfd5e2e6b143') in 0.005728 seconds 
+  Import took 0.016675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.106512 seconds.
+  path: Assets/GothicVania Church/Environment
+  artifactKey: Guid(bf678482ad0bb4e2d9fc66d3ba3b925d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Environment using Guid(bf678482ad0bb4e2d9fc66d3ba3b925d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71184ea72a8f33b441ff2e964bc76bb') in 0.030811 seconds 
+  Import took 0.034816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025229 seconds.
+  path: Assets/GothicVania Church/Environment/bg-1.png
+  artifactKey: Guid(4088e222fbea240ceb318507c580aa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Environment/bg-1.png using Guid(4088e222fbea240ceb318507c580aa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad63883932251f4b7b3b273370114897') in 0.157579 seconds 
+  Import took 0.161982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/GothicVania Church/Environment/column.png
+  artifactKey: Guid(41d8855c301eb4f37bddd0d3dfac611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Environment/column.png using Guid(41d8855c301eb4f37bddd0d3dfac611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf7cb53eed526fe583057dc322adde6') in 0.018993 seconds 
+  Import took 0.023141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/GothicVania Church/Environment/tileset.png
+  artifactKey: Guid(aaa6ed922388941e8a1e8c9a7cb2a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Environment/tileset.png using Guid(aaa6ed922388941e8a1e8c9a7cb2a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698cdf166782af05e646081387cc2d8b') in 0.036363 seconds 
+  Import took 0.042812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/GothicVania Church/Environment/bg-2.png
+  artifactKey: Guid(4d106ce971166481faa32de0ba5145c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Environment/bg-2.png using Guid(4d106ce971166481faa32de0ba5145c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c1f463c9fb805ca1c09f6e20a13c2b') in 0.026122 seconds 
+  Import took 0.033524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/GothicVania Church/Environment/bg-3.png
+  artifactKey: Guid(167f44201ce9c4632b387d0a0822f7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Environment/bg-3.png using Guid(167f44201ce9c4632b387d0a0822f7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a33e680cae89dca3c149a1e24679d7') in 0.027802 seconds 
+  Import took 0.033377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/GothicVania Church/Environment/bg-5.png
+  artifactKey: Guid(f8298875ddc0d4fa4bb8d9a60b80fa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Environment/bg-5.png using Guid(f8298875ddc0d4fa4bb8d9a60b80fa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763324a12d5e9fdf67fbf259a20fb49a') in 0.039478 seconds 
+  Import took 0.045729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/GothicVania Church/Environment/bg-4.png
+  artifactKey: Guid(d8254b0cb964744a0a12cf381c9356e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania Church/Environment/bg-4.png using Guid(d8254b0cb964744a0a12cf381c9356e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085daafdc919e5330c29c18135d63763') in 0.026019 seconds 
+  Import took 0.031380 seconds .
+
