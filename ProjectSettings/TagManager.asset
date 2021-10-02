@@ -8,6 +8,8 @@ TagManager:
   - ColliderSol
   - Bullet
   - Enemy
+  - Fall
+  - Sword
   layers:
   - Default
   - TransparentFX
