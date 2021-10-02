@@ -49,7 +49,7 @@ public class PlayerDamage : MonoBehaviour
             }
         }
         
-        if (other.gameObject.tag.Equals("Enemy") && !isParryable && isVulnerable)
+        if (other.gameObject.tag.Equals("Sword") && !isParryable && isVulnerable)
         {
             repulseEffect(other.transform.rotation.y);
             TakeDamage(2);
@@ -58,6 +58,11 @@ public class PlayerDamage : MonoBehaviour
             var force = transform.position - other.transform.position;
             force.Normalize();
             _rigidbody2D.AddForce (-force * ForceParry);
+        }
+
+        if (other.gameObject.tag.Equals("Fall"))
+        {
+            Die();
         }
     }
 

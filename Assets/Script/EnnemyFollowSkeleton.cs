@@ -13,10 +13,13 @@ public class EnnemyFollowSkeleton : MonoBehaviour
     private bool isChasing = false;
     public Animator animator;
     public bool attackCoolDown; // true quand le cooldown est actif, false quand il est fini donc ennemie peut attaquer
+    [SerializeField] private GameObject hitboxAttack;
+    public float attackDistance = 2;
 
     // Start is called before the first frame update
     void Start()
     {
+        hitboxAttack.SetActive(false);
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         attackCoolDown = true;
     }
@@ -32,7 +35,7 @@ public class EnnemyFollowSkeleton : MonoBehaviour
         
         if (isChasing)
         {
-            if (Vector2.Distance(transform.position, target.position) > 2)
+            if (Vector2.Distance(transform.position, target.position) > attackDistance)
             {
                 transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
             }
@@ -66,12 +69,13 @@ public class EnnemyFollowSkeleton : MonoBehaviour
         
         transform.rotation = rotation;
     }
-    
+     
     void Attack()
     {
         if (!GetComponent<Ennemy>().isDead)
         {
             animator.SetTrigger("Attack");
+            hitboxAttack.SetActive(true);
         }
     }
     
@@ -79,5 +83,6 @@ public class EnnemyFollowSkeleton : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         attackCoolDown = true;
+        hitboxAttack.SetActive(false);
     }
 }
