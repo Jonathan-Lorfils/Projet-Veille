@@ -1625,6 +1625,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.0135784, y: 1.1599815}
   m_EdgeRadius: 0
+--- !u!1 &878049425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3668491048122665244, guid: 3484d708732caf94ca21a8ae9917500b, type: 3}
+  m_PrefabInstance: {fileID: 253249959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &878049429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878049425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1eb73d1a7008cc47a44158c48bcdf30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &896384735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1781,6 +1798,80 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &990040182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 990040184}
+  - component: {fileID: 990040183}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &990040183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990040182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62b917133bf64b44bca9bd61bc95e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Walk
+    clip: {fileID: 8300000, guid: 9b0833c02b71a294faba6438278d937a, type: 3}
+    volume: 1.47
+    pitch: 1.51
+    source: {fileID: 0}
+  - name: Hurt
+    clip: {fileID: 8300000, guid: 4acaf282c31675042873963419dc479d, type: 3}
+    volume: 1.47
+    pitch: 1.51
+    source: {fileID: 0}
+  - name: Attack
+    clip: {fileID: 8300000, guid: 952f4e06b9fc14a4abd72725f0c66eb2, type: 3}
+    volume: 1.47
+    pitch: 1.51
+    source: {fileID: 0}
+  - name: Parry
+    clip: {fileID: 8300000, guid: 3a115dcb4dde9fb45a72f397319eec92, type: 3}
+    volume: 1.47
+    pitch: 1.51
+    source: {fileID: 0}
+  - name: Landing
+    clip: {fileID: 8300000, guid: 5329b99920a6642409627b29d379aff7, type: 3}
+    volume: 1.47
+    pitch: 1.51
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: 628c4205ac542644b9286a339010668f, type: 3}
+    volume: 1.47
+    pitch: 1.51
+    source: {fileID: 0}
+--- !u!4 &990040184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990040182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.042607, y: 0.16238886, z: -1.9037585}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1045107062
 GameObject:
   m_ObjectHideFlags: 0
