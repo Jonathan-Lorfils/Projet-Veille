@@ -15,6 +15,7 @@ public class EnnemyFollowSkeleton : MonoBehaviour
     public bool attackCoolDown; // true quand le cooldown est actif, false quand il est fini donc ennemie peut attaquer
     [SerializeField] private GameObject hitboxAttack;
     public float attackDistance = 2;
+    public float attackRate = 2f;
 
     // Start is called before the first frame update
     void Start()
@@ -81,7 +82,7 @@ public class EnnemyFollowSkeleton : MonoBehaviour
     
     IEnumerator attackTimer()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(attackRate);
         attackCoolDown = true;
         hitboxAttack.SetActive(false);
     }

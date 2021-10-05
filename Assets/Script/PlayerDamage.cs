@@ -2,13 +2,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerDamage : MonoBehaviour
 {
-    private int hearts = 10;
+    private int maxHealt = 100;
+    private int currentHealt;
     public bool isDead;
     public Animator animator;
     public float ForceParry = 1;
+    public HealtBar healtBar;
     [SerializeField] private Rigidbody2D _rigidbody2D;
     [SerializeField] private ParryScript _parryScript;
     [SerializeField] private SpriteRenderer _spriteRenderer;
@@ -20,17 +23,15 @@ public class PlayerDamage : MonoBehaviour
     void Start()
     {
         isVulnerable = true;
-        isDead = false;  
+        isDead = false;
+        currentHealt = maxHealt;
+        healtBar.SetHealt(currentHealt,maxHealt);
     }
 
     // Update is called once per frame
     void Update()
     {
         isParryable = _parryScript.isParryable;
-        if (hearts <= 0)
-        {
-            Die();
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -45,19 +46,24 @@ public class PlayerDamage : MonoBehaviour
                 repulseEffect(other.transform.rotation.y);
                 isVulnerable = false;
                 StartCoroutine(TimerInvincibility());
-                TakeDamage(1);
+                TakeDamage(10);
             }
         }
         
         if (other.gameObject.tag.Equals("Sword") && !isParryable && isVulnerable)
         {
             repulseEffect(other.transform.rotation.y);
-            TakeDamage(2);
+            TakeDamage(20);
             isVulnerable = false;
             StartCoroutine(TimerInvincibility());
             var force = transform.position - other.transform.position;
             force.Normalize();
             _rigidbody2D.AddForce (-force * ForceParry);
+        }
+
+        if (other.gameObject.tag.Equals("NextLevel"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
         if (other.gameObject.tag.Equals("Fall"))
@@ -68,10 +74,13 @@ public class PlayerDamage : MonoBehaviour
 
     void TakeDamage(int damage)
     {
-        hearts -= damage;
+        currentHealt -= damage;
+        healtBar.SetHealt(currentHealt,maxHealt);
         animator.SetTrigger("isHurt");
-        Debug.Log(hearts);
-        // velocity en direction oppose (repouser le joueur vers l'arriere)
+        if (currentHealt <= 0)
+        {
+            Die();
+        }
     }
 
     void Die()
